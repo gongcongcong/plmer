@@ -1,0 +1,18 @@
+Package: plmer
+Title: lmer run in parallel
+Version: 0.0.0.9000
+Description: What the package does (one paragraph).
+License: Artistic-2.0
+Authors@R: person("Congcong", "Gong", email = "congconggong33@gmail.com", 
+                  role= c("aut", "cre"), comment = c(ORCID = "0000-0002-9483-1424"))
+Maintainer@R: CongcongGong <congconggong33@gmail.com>
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports:
+        data.table,
+        parallel,
+        lme4
+Depends: 
+    R (>= 4.1.0)
+
